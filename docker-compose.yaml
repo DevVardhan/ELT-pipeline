@@ -2,9 +2,9 @@ version: '3'
 
 services:
   source_postgres:
-    image: postgres:latest
-    ports: 
-      -"5433:5432"
+    image: postgres:9.2
+    ports:
+      - "5433:5432"
     networks:
       - etl_network
     environment:
@@ -15,9 +15,9 @@ services:
       - ./source_db_init/init.sql:/docker-entrypoint-initdb.d/init.sql
 
   destination_postgres:
-    image: postgres:latest
-    ports: 
-      -"5434:5432"
+    image: postgres:9.2
+    ports:
+      - "5434:5432"
     networks:
       - etl_network
     environment:
