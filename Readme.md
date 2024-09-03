@@ -88,4 +88,4 @@ This repository contains a data pipeline designed to automate the process of ext
 
 ## Contact
 
-For questions or support, please contact ME at ![email](devvardhan456@gmail.com).
+For questions or support, please contact ME at ![email](https://avatars.githubusercontent.com/u/68842943?v=4).
