@@ -1,6 +1,6 @@
 # End-to-End ELT Pipeline
 
-## Pipeline Overview
+## Overview
 
 This repository contains a data pipeline designed to automate the process of extracting data from a source database, loading it into a destination database, and then performing data transformations using dbt (data build tool).
 
